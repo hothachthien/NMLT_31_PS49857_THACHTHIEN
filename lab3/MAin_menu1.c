@@ -24,32 +24,27 @@ int main()
             printf("Nhap so diem cua sinh vien: ");
             scanf("%f", &diem);
             if(diem < 0.0 || diem > 10.0){
-                printf("Diem so khong hop le\n");
-            }
-                else{
-                    if (diem >= 9.0) {
-            printf("Hoc luc Xuat sac\n");
-        } else {
-            if (diem >= 8.0) {
+                printf("Diem so khong hop le\n");}
+            
+                else if (diem >= 9.0){
+            printf("Hoc luc Xuat sac\n");}
+         else if (diem >= 8.0){ 
                 printf("Hoc luc Gioi\n");
-            } else {
-                if (diem >= 6.5) {
+            } else if (diem >= 6.5) {
                     printf("Hoc luc Kha\n");
-                } else {
-                    if (diem >= 5.0) {
+                } else if (diem >= 5.0) {
                         printf("Hoc luc Trung binh\n");
-                    } else {
-                        if (diem >= 3.5) {
+                    } else if (diem >= 3.5) {
                             printf("Hoc luc Yeu\n");
                         } else {
                             printf("Hoc luc Kem\n");
                         }
-                    }
-                }
-            }
-        }
-    }
-            break;
+                    break;
+                
+            
+        
+    
+            
         case 2:
             printf("Ban da chon chuc nang 2:giai phuong trinh bac hai\n");
             printf("Nhap he so a,b,c: ");
